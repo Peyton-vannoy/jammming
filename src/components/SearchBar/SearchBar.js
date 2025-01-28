@@ -10,7 +10,7 @@ function SearchBar({ onSearch }) {
   };
 
   return (
-    <div className="SearchBar">
+    <div className="search_bar">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -18,7 +18,7 @@ function SearchBar({ onSearch }) {
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Enter A Song, Album, or Artist"
         />
-        <button className="SearchButton">SEARCH</button>
+        <button className="search_button">SEARCH</button>
       </form>
     </div>
   );
